@@ -47,7 +47,7 @@ Voici les étapes à suivre pour réaliser l'activité :
 7. Calculer l'IMC en divisant le poids de l'utilisateur par la valeur de la taille au carré.
 8. Afficher un message à l'écran affichant le nom et le résultat de l'IMC.
 
-## Enoncé 2
+## Enoncé 3
 Dans cette activité, nous pratiquerons le looping imbriqué et appliquerons des conditions pour limiter les itérations des boucles intérieures et extérieures. Nous disposerons d'un tableau associatif multidimensionnel dans lequel le nom du réalisateur sert de clé pour contenir un tableau de noms de films. Ainsi, chaque élément du tableau associatif contient un nom de réalisateur comme clé et le tableau des noms de films comme valeur. Nous allons introduire une boucle extérieure pour faire une boucle à travers les éléments du tableau associatif et imprimer le nom du réalisateur, utilisé comme clé. Une autre boucle interne doit boucler le tableau des noms de films de ce réalisateur - c'est la clé. Les arguments agissent comme des étapes d'itération de boucle pour maintenir où le premier argument définit combien de fois le nom d'un réalisateur doit être imprimé et le second argument définit combien de noms de films doivent être imprimés à partir du réalisateur donné.
 - Le tableau multidimensionnel contient cinq réalisateurs.
 - Les étapes à effectuer sont les suivantes :
