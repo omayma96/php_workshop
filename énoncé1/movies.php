@@ -2,9 +2,8 @@
 $NomFilm = $_GET["NomFilm"];
 $Acteur = $_GET ["Acteur"];
 $Date = $_GET ["Date"];
+?>
 
-?
->
 <!DOCTYPE html>
 <html lang="en">
 <head>
