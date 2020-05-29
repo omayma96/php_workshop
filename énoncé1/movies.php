@@ -13,7 +13,8 @@ $Date = $_GET["Date"];
 </head>
 <body>
     <h1><strong> informations about <?php echo "$NomFilm"; ?>:</strong></h1>
-       <h2> <?php echo "$Acteur";?> started in the movie <?php echo "$NomFilm"; ?> which was released in year <?php echo "$Date"; ?><h2>
+    <h3>Based on the input, here is the information so far :<h3>
+       <h3> <?php echo "$Acteur";?> started in the movie <?php echo "$NomFilm"; ?> which was released in year <?php echo "$Date"; ?><h3>
      
 </body>
 </html>
