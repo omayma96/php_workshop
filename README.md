@@ -75,7 +75,7 @@ Les films de Martin Scorsese :
 
 > Hugo
 
-Enoncé 4
+## Enoncé 4
 Vous travaillez sur une application web d'une calculatrice. Imaginons qu'on vous donne tout le code de l'interface utilisateur, mais on vous demande de créer la fonction qui effectuera les calculs. Vous devez créer une fonction unique qui soit réutilisable pour tous les calculs nécessaires dans l'application.
 
 
