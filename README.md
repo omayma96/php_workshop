@@ -75,3 +75,17 @@ Les films de Martin Scorsese :
 
 > Hugo
 
+Enoncé 4
+Vous travaillez sur une application web d'une calculatrice. Imaginons qu'on vous donne tout le code de l'interface utilisateur, mais on vous demande de créer la fonction qui effectuera les calculs. Vous devez créer une fonction unique qui soit réutilisable pour tous les calculs nécessaires dans l'application.
+
+
+Les étapes suivantes vous aideront à réaliser l'activité :
+
+
+Créez une fonction qui calculera et retournera le factoriel du nombre d'entrée.
+
+Créez une fonction qui retournera la somme des nombres d'entrée (un nombre variable de paramètres).
+
+Créez une fonction qui évaluera $number entré, qui doit être un nombre entier et qui retournera si le nombre est un nombre premier ou non. Le type de retour de cette fonction est un booléen (bool).
+
+Créer une fonction performOperation de base qui traitera les opérations mathématiques prédéfinies. Le premier paramètre de la fonction performOperation doit être une chaîne de caractères, soit "factorielle", soit "somme", soit "nombre premier". Les arguments restants sont transmis à la fonction mathématique appelée en tant qu'arguments.
