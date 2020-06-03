@@ -22,4 +22,15 @@ function fct(int $num){
 }
 $result = fct(3);
 echo $result.'<br>'; 
+
+// la somme des nombres
+
+function sum(int...$nbr){
+    echo array_sum($nbr);
+}
+$result = sum(0,5,20,10,'1',"1");
+echo $result .'<br>'
+
+
 ?>
+
