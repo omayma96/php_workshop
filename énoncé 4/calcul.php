@@ -61,5 +61,16 @@ if($result){
 }else {
     echo 'ce n\'est pas un nombre premier' .'<br>';
 }
+
+
+// la fonction performOperation de base qui traitera les opérations mathématiques prédéfinies
+
+function performOperation($abc, $a=0, $b=0){
+    echo call_user_func($abc, $a, $b);
+ }
+
+ echo performOperation('fact',3);
+ echo performOperation('test_nbr',5);
+
 ?>
 
