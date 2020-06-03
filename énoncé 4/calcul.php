@@ -29,8 +29,37 @@ function sum(int...$nbr){
     echo array_sum($nbr);
 }
 $result = sum(0,5,20,10,'1',"1");
-echo $result .'<br>'
+echo $result .'<br>';
 
+//function qui dit si un nbr est entier ou pas ainsi si il est premier ou pas 
 
+function test_nbr($nbr){
+
+    if(is_int($nbr)){
+         echo "c'est un entier". '<br>';
+         if($nbr < 2 ){
+             return false;
+         }
+         
+         else if ($nbr > 2 && $nbr % 2 === 0){
+              return false;
+         }
+        
+         else {
+              return true;
+         }
+        
+    }
+        else
+      echo 'C\'est pas un entier'. '<br>';
+    
+}
+$result = test_nbr(17);
+if($result){
+    echo "c'est un nombre premier" .'<br>';
+
+}else {
+    echo 'ce n\'est pas un nombre premier' .'<br>';
+}
 ?>
 
